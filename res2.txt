@@ -1,0 +1,225 @@
+---------------------------------------------
+baseline ROUGE-1 Average_R: 0.27472 (95%-conf.int. 0.22032 - 0.32860)
+baseline ROUGE-1 Average_P: 0.10570 (95%-conf.int. 0.08281 - 0.13078)
+baseline ROUGE-1 Average_F: 0.13884 (95%-conf.int. 0.11227 - 0.16473)
+.............................................
+baseline ROUGE-1 Eval 1.baseline R:0.47899 P:0.13835 F:0.21469
+baseline ROUGE-1 Eval 2.baseline R:0.32479 P:0.08559 F:0.13548
+baseline ROUGE-1 Eval 3.baseline R:0.35223 P:0.18590 F:0.24336
+baseline ROUGE-1 Eval 4.baseline R:0.40000 P:0.05227 F:0.09246
+baseline ROUGE-1 Eval 5.baseline R:0.18079 P:0.23881 F:0.20579
+baseline ROUGE-1 Eval 6.baseline R:0.55263 P:0.14789 F:0.23334
+baseline ROUGE-1 Eval 7.baseline R:0.52893 P:0.08511 F:0.14663
+baseline ROUGE-1 Eval 8.baseline R:0.00000 P:0.00000 F:0.00000
+baseline ROUGE-1 Eval 9.baseline R:0.58696 P:0.16226 F:0.25424
+baseline ROUGE-1 Eval 10.baseline R:0.00000 P:0.00000 F:0.00000
+baseline ROUGE-1 Eval 11.baseline R:0.00000 P:0.00000 F:0.00000
+baseline ROUGE-1 Eval 12.baseline R:0.29185 P:0.17708 F:0.22042
+baseline ROUGE-1 Eval 13.baseline R:0.20833 P:0.12019 F:0.15244
+baseline ROUGE-1 Eval 14.baseline R:0.35484 P:0.08148 F:0.13253
+baseline ROUGE-1 Eval 15.baseline R:0.48718 P:0.08006 F:0.13752
+baseline ROUGE-1 Eval 16.baseline R:0.31746 P:0.10989 F:0.16327
+baseline ROUGE-1 Eval 17.baseline R:0.00000 P:0.00000 F:0.00000
+baseline ROUGE-1 Eval 18.baseline R:0.38843 P:0.07437 F:0.12484
+baseline ROUGE-1 Eval 19.baseline R:0.37391 P:0.06935 F:0.11700
+baseline ROUGE-1 Eval 20.baseline R:0.00000 P:0.00000 F:0.00000
+baseline ROUGE-1 Eval 21.baseline R:0.27928 P:0.08158 F:0.12627
+baseline ROUGE-1 Eval 22.baseline R:0.22358 P:0.28061 F:0.24887
+baseline ROUGE-1 Eval 23.baseline R:0.47414 P:0.13750 F:0.21318
+baseline ROUGE-1 Eval 24.baseline R:0.28448 P:0.08871 F:0.13525
+baseline ROUGE-1 Eval 25.baseline R:0.23729 P:0.10145 F:0.14213
+baseline ROUGE-1 Eval 26.baseline R:0.33621 P:0.22328 F:0.26835
+baseline ROUGE-1 Eval 27.baseline R:0.24786 P:0.16860 F:0.20069
+baseline ROUGE-1 Eval 28.baseline R:0.00000 P:0.00000 F:0.00000
+baseline ROUGE-1 Eval 29.baseline R:0.24786 P:0.12500 F:0.16619
+baseline ROUGE-1 Eval 30.baseline R:0.21667 P:0.21311 F:0.21488
+baseline ROUGE-1 Eval 31.baseline R:0.00000 P:0.00000 F:0.00000
+baseline ROUGE-1 Eval 32.baseline R:0.28070 P:0.06957 F:0.11150
+baseline ROUGE-1 Eval 33.baseline R:0.51304 P:0.07160 F:0.12566
+baseline ROUGE-1 Eval 34.baseline R:0.43220 P:0.08557 F:0.14286
+baseline ROUGE-1 Eval 35.baseline R:0.23622 P:0.08824 F:0.12848
+baseline ROUGE-1 Eval 36.baseline R:0.34188 P:0.09615 F:0.15009
+baseline ROUGE-1 Eval 37.baseline R:0.19619 P:0.31579 F:0.24202
+baseline ROUGE-1 Eval 38.baseline R:0.00000 P:0.00000 F:0.00000
+baseline ROUGE-1 Eval 39.baseline R:0.00000 P:0.00000 F:0.00000
+baseline ROUGE-1 Eval 40.baseline R:0.55200 P:0.21975 F:0.31436
+---------------------------------------------
+baseline ROUGE-2 Average_R: 0.07923 (95%-conf.int. 0.05804 - 0.10210)
+baseline ROUGE-2 Average_P: 0.02805 (95%-conf.int. 0.02152 - 0.03556)
+baseline ROUGE-2 Average_F: 0.03831 (95%-conf.int. 0.02936 - 0.04916)
+.............................................
+baseline ROUGE-2 Eval 1.baseline R:0.18220 P:0.05244 F:0.08144
+baseline ROUGE-2 Eval 2.baseline R:0.06897 P:0.01818 F:0.02878
+baseline ROUGE-2 Eval 3.baseline R:0.03673 P:0.01940 F:0.02539
+baseline ROUGE-2 Eval 4.baseline R:0.07018 P:0.00913 F:0.01616
+baseline ROUGE-2 Eval 5.baseline R:0.03419 P:0.04545 F:0.03902
+baseline ROUGE-2 Eval 6.baseline R:0.20796 P:0.05542 F:0.08752
+baseline ROUGE-2 Eval 7.baseline R:0.18333 P:0.02941 F:0.05069
+baseline ROUGE-2 Eval 8.baseline R:0.00000 P:0.00000 F:0.00000
+baseline ROUGE-2 Eval 9.baseline R:0.21930 P:0.06039 F:0.09470
+baseline ROUGE-2 Eval 10.baseline R:0.00000 P:0.00000 F:0.00000
+baseline ROUGE-2 Eval 11.baseline R:0.00000 P:0.00000 F:0.00000
+baseline ROUGE-2 Eval 12.baseline R:0.06061 P:0.03684 F:0.04583
+baseline ROUGE-2 Eval 13.baseline R:0.03361 P:0.01961 F:0.02477
+baseline ROUGE-2 Eval 14.baseline R:0.08943 P:0.02052 F:0.03338
+baseline ROUGE-2 Eval 15.baseline R:0.23276 P:0.03814 F:0.06554
+baseline ROUGE-2 Eval 16.baseline R:0.11200 P:0.03889 F:0.05773
+baseline ROUGE-2 Eval 17.baseline R:0.00000 P:0.00000 F:0.00000
+baseline ROUGE-2 Eval 18.baseline R:0.05833 P:0.01115 F:0.01872
+baseline ROUGE-2 Eval 19.baseline R:0.04386 P:0.00812 F:0.01370
+baseline ROUGE-2 Eval 20.baseline R:0.00000 P:0.00000 F:0.00000
+baseline ROUGE-2 Eval 21.baseline R:0.07273 P:0.02128 F:0.03293
+baseline ROUGE-2 Eval 22.baseline R:0.04918 P:0.06250 F:0.05505
+baseline ROUGE-2 Eval 23.baseline R:0.12174 P:0.03518 F:0.05459
+baseline ROUGE-2 Eval 24.baseline R:0.05217 P:0.01630 F:0.02484
+baseline ROUGE-2 Eval 25.baseline R:0.10256 P:0.04412 F:0.06170
+baseline ROUGE-2 Eval 26.baseline R:0.06377 P:0.04231 F:0.05087
+baseline ROUGE-2 Eval 27.baseline R:0.06034 P:0.04118 F:0.04895
+baseline ROUGE-2 Eval 28.baseline R:0.00000 P:0.00000 F:0.00000
+baseline ROUGE-2 Eval 29.baseline R:0.08621 P:0.04386 F:0.05814
+baseline ROUGE-2 Eval 30.baseline R:0.06723 P:0.06667 F:0.06695
+baseline ROUGE-2 Eval 31.baseline R:0.00000 P:0.00000 F:0.00000
+baseline ROUGE-2 Eval 32.baseline R:0.04425 P:0.01096 F:0.01757
+baseline ROUGE-2 Eval 33.baseline R:0.19298 P:0.02683 F:0.04711
+baseline ROUGE-2 Eval 34.baseline R:0.10256 P:0.02027 F:0.03385
+baseline ROUGE-2 Eval 35.baseline R:0.09524 P:0.03571 F:0.05194
+baseline ROUGE-2 Eval 36.baseline R:0.10345 P:0.02913 F:0.04546
+baseline ROUGE-2 Eval 37.baseline R:0.02747 P:0.04464 F:0.03401
+baseline ROUGE-2 Eval 38.baseline R:0.00000 P:0.00000 F:0.00000
+baseline ROUGE-2 Eval 39.baseline R:0.00000 P:0.00000 F:0.00000
+baseline ROUGE-2 Eval 40.baseline R:0.27419 P:0.10897 F:0.15596
+---------------------------------------------
+baseline ROUGE-3 Average_R: 0.03445 (95%-conf.int. 0.02185 - 0.04991)
+baseline ROUGE-3 Average_P: 0.01106 (95%-conf.int. 0.00688 - 0.01636)
+baseline ROUGE-3 Average_F: 0.01594 (95%-conf.int. 0.01004 - 0.02350)
+.............................................
+baseline ROUGE-3 Eval 1.baseline R:0.08120 P:0.02328 F:0.03619
+baseline ROUGE-3 Eval 2.baseline R:0.02609 P:0.00688 F:0.01089
+baseline ROUGE-3 Eval 3.baseline R:0.00412 P:0.00217 F:0.00284
+baseline ROUGE-3 Eval 4.baseline R:0.01770 P:0.00229 F:0.00406
+baseline ROUGE-3 Eval 5.baseline R:0.00000 P:0.00000 F:0.00000
+baseline ROUGE-3 Eval 6.baseline R:0.12054 P:0.03199 F:0.05056
+baseline ROUGE-3 Eval 7.baseline R:0.09244 P:0.01478 F:0.02549
+baseline ROUGE-3 Eval 8.baseline R:0.00000 P:0.00000 F:0.00000
+baseline ROUGE-3 Eval 9.baseline R:0.13274 P:0.03641 F:0.05715
+baseline ROUGE-3 Eval 10.baseline R:0.00000 P:0.00000 F:0.00000
+baseline ROUGE-3 Eval 11.baseline R:0.00000 P:0.00000 F:0.00000
+baseline ROUGE-3 Eval 12.baseline R:0.00873 P:0.00532 F:0.00661
+baseline ROUGE-3 Eval 13.baseline R:0.01695 P:0.01000 F:0.01258
+baseline ROUGE-3 Eval 14.baseline R:0.01639 P:0.00376 F:0.00612
+baseline ROUGE-3 Eval 15.baseline R:0.12174 P:0.01989 F:0.03419
+baseline ROUGE-3 Eval 16.baseline R:0.04839 P:0.01685 F:0.02500
+baseline ROUGE-3 Eval 17.baseline R:0.00000 P:0.00000 F:0.00000
+baseline ROUGE-3 Eval 18.baseline R:0.00000 P:0.00000 F:0.00000
+baseline ROUGE-3 Eval 19.baseline R:0.00885 P:0.00163 F:0.00275
+baseline ROUGE-3 Eval 20.baseline R:0.00000 P:0.00000 F:0.00000
+baseline ROUGE-3 Eval 21.baseline R:0.01835 P:0.00538 F:0.00832
+baseline ROUGE-3 Eval 22.baseline R:0.00413 P:0.00532 F:0.00465
+baseline ROUGE-3 Eval 23.baseline R:0.04825 P:0.01389 F:0.02157
+baseline ROUGE-3 Eval 24.baseline R:0.02632 P:0.00824 F:0.01255
+baseline ROUGE-3 Eval 25.baseline R:0.05172 P:0.02239 F:0.03125
+baseline ROUGE-3 Eval 26.baseline R:0.02924 P:0.01938 F:0.02331
+baseline ROUGE-3 Eval 27.baseline R:0.01739 P:0.01190 F:0.01413
+baseline ROUGE-3 Eval 28.baseline R:0.00000 P:0.00000 F:0.00000
+baseline ROUGE-3 Eval 29.baseline R:0.02609 P:0.01339 F:0.01770
+baseline ROUGE-3 Eval 30.baseline R:0.04237 P:0.04237 F:0.04237
+baseline ROUGE-3 Eval 31.baseline R:0.00000 P:0.00000 F:0.00000
+baseline ROUGE-3 Eval 32.baseline R:0.00000 P:0.00000 F:0.00000
+baseline ROUGE-3 Eval 33.baseline R:0.10619 P:0.01471 F:0.02584
+baseline ROUGE-3 Eval 34.baseline R:0.02586 P:0.00510 F:0.00852
+baseline ROUGE-3 Eval 35.baseline R:0.04800 P:0.01807 F:0.02626
+baseline ROUGE-3 Eval 36.baseline R:0.04348 P:0.01225 F:0.01911
+baseline ROUGE-3 Eval 37.baseline R:0.00000 P:0.00000 F:0.00000
+baseline ROUGE-3 Eval 38.baseline R:0.00000 P:0.00000 F:0.00000
+baseline ROUGE-3 Eval 39.baseline R:0.00000 P:0.00000 F:0.00000
+baseline ROUGE-3 Eval 40.baseline R:0.19106 P:0.07581 F:0.10855
+---------------------------------------------
+baseline ROUGE-4 Average_R: 0.01909 (95%-conf.int. 0.01071 - 0.03063)
+baseline ROUGE-4 Average_P: 0.00620 (95%-conf.int. 0.00324 - 0.01030)
+baseline ROUGE-4 Average_F: 0.00899 (95%-conf.int. 0.00485 - 0.01495)
+.............................................
+baseline ROUGE-4 Eval 1.baseline R:0.04741 P:0.01355 F:0.02108
+baseline ROUGE-4 Eval 2.baseline R:0.01754 P:0.00463 F:0.00733
+baseline ROUGE-4 Eval 3.baseline R:0.00000 P:0.00000 F:0.00000
+baseline ROUGE-4 Eval 4.baseline R:0.00893 P:0.00115 F:0.00204
+baseline ROUGE-4 Eval 5.baseline R:0.00000 P:0.00000 F:0.00000
+baseline ROUGE-4 Eval 6.baseline R:0.06757 P:0.01786 F:0.02825
+baseline ROUGE-4 Eval 7.baseline R:0.03390 P:0.00541 F:0.00933
+baseline ROUGE-4 Eval 8.baseline R:0.00000 P:0.00000 F:0.00000
+baseline ROUGE-4 Eval 9.baseline R:0.09375 P:0.02561 F:0.04023
+baseline ROUGE-4 Eval 10.baseline R:0.00000 P:0.00000 F:0.00000
+baseline ROUGE-4 Eval 11.baseline R:0.00000 P:0.00000 F:0.00000
+baseline ROUGE-4 Eval 12.baseline R:0.00000 P:0.00000 F:0.00000
+baseline ROUGE-4 Eval 13.baseline R:0.00855 P:0.00510 F:0.00639
+baseline ROUGE-4 Eval 14.baseline R:0.00826 P:0.00189 F:0.00308
+baseline ROUGE-4 Eval 15.baseline R:0.07018 P:0.01143 F:0.01966
+baseline ROUGE-4 Eval 16.baseline R:0.01626 P:0.00568 F:0.00842
+baseline ROUGE-4 Eval 17.baseline R:0.00000 P:0.00000 F:0.00000
+baseline ROUGE-4 Eval 18.baseline R:0.00000 P:0.00000 F:0.00000
+baseline ROUGE-4 Eval 19.baseline R:0.00000 P:0.00000 F:0.00000
+baseline ROUGE-4 Eval 20.baseline R:0.00000 P:0.00000 F:0.00000
+baseline ROUGE-4 Eval 21.baseline R:0.00926 P:0.00272 F:0.00420
+baseline ROUGE-4 Eval 22.baseline R:0.00000 P:0.00000 F:0.00000
+baseline ROUGE-4 Eval 23.baseline R:0.02212 P:0.00635 F:0.00987
+baseline ROUGE-4 Eval 24.baseline R:0.01770 P:0.00556 F:0.00846
+baseline ROUGE-4 Eval 25.baseline R:0.02609 P:0.01136 F:0.01583
+baseline ROUGE-4 Eval 26.baseline R:0.01475 P:0.00977 F:0.01175
+baseline ROUGE-4 Eval 27.baseline R:0.00877 P:0.00602 F:0.00714
+baseline ROUGE-4 Eval 28.baseline R:0.00000 P:0.00000 F:0.00000
+baseline ROUGE-4 Eval 29.baseline R:0.00877 P:0.00455 F:0.00599
+baseline ROUGE-4 Eval 30.baseline R:0.02137 P:0.02155 F:0.02146
+baseline ROUGE-4 Eval 31.baseline R:0.00000 P:0.00000 F:0.00000
+baseline ROUGE-4 Eval 32.baseline R:0.00000 P:0.00000 F:0.00000
+baseline ROUGE-4 Eval 33.baseline R:0.04464 P:0.00616 F:0.01083
+baseline ROUGE-4 Eval 34.baseline R:0.00000 P:0.00000 F:0.00000
+baseline ROUGE-4 Eval 35.baseline R:0.02419 P:0.00915 F:0.01328
+baseline ROUGE-4 Eval 36.baseline R:0.02632 P:0.00743 F:0.01159
+baseline ROUGE-4 Eval 37.baseline R:0.00000 P:0.00000 F:0.00000
+baseline ROUGE-4 Eval 38.baseline R:0.00000 P:0.00000 F:0.00000
+baseline ROUGE-4 Eval 39.baseline R:0.00000 P:0.00000 F:0.00000
+baseline ROUGE-4 Eval 40.baseline R:0.16803 P:0.06656 F:0.09535
+---------------------------------------------
+baseline ROUGE-L Average_R: 0.18336 (95%-conf.int. 0.14565 - 0.22150)
+baseline ROUGE-L Average_P: 0.07150 (95%-conf.int. 0.05531 - 0.08956)
+baseline ROUGE-L Average_F: 0.09324 (95%-conf.int. 0.07521 - 0.11164)
+.............................................
+baseline ROUGE-L Eval 1.baseline R:0.31933 P:0.09223 F:0.14312
+baseline ROUGE-L Eval 2.baseline R:0.23932 P:0.06306 F:0.09982
+baseline ROUGE-L Eval 3.baseline R:0.20648 P:0.10897 F:0.14265
+baseline ROUGE-L Eval 4.baseline R:0.27826 P:0.03636 F:0.06432
+baseline ROUGE-L Eval 5.baseline R:0.13277 P:0.17537 F:0.15113
+baseline ROUGE-L Eval 6.baseline R:0.37281 P:0.09977 F:0.15741
+baseline ROUGE-L Eval 7.baseline R:0.36364 P:0.05851 F:0.10080
+baseline ROUGE-L Eval 8.baseline R:0.00000 P:0.00000 F:0.00000
+baseline ROUGE-L Eval 9.baseline R:0.40435 P:0.11178 F:0.17514
+baseline ROUGE-L Eval 10.baseline R:0.00000 P:0.00000 F:0.00000
+baseline ROUGE-L Eval 11.baseline R:0.00000 P:0.00000 F:0.00000
+baseline ROUGE-L Eval 12.baseline R:0.17167 P:0.10417 F:0.12966
+baseline ROUGE-L Eval 13.baseline R:0.15000 P:0.08654 F:0.10976
+baseline ROUGE-L Eval 14.baseline R:0.20968 P:0.04815 F:0.07832
+baseline ROUGE-L Eval 15.baseline R:0.33333 P:0.05478 F:0.09410
+baseline ROUGE-L Eval 16.baseline R:0.16667 P:0.05769 F:0.08571
+baseline ROUGE-L Eval 17.baseline R:0.00000 P:0.00000 F:0.00000
+baseline ROUGE-L Eval 18.baseline R:0.25620 P:0.04905 F:0.08234
+baseline ROUGE-L Eval 19.baseline R:0.26087 P:0.04839 F:0.08164
+baseline ROUGE-L Eval 20.baseline R:0.00000 P:0.00000 F:0.00000
+baseline ROUGE-L Eval 21.baseline R:0.16216 P:0.04737 F:0.07332
+baseline ROUGE-L Eval 22.baseline R:0.15447 P:0.19388 F:0.17195
+baseline ROUGE-L Eval 23.baseline R:0.28879 P:0.08375 F:0.12984
+baseline ROUGE-L Eval 24.baseline R:0.19828 P:0.06183 F:0.09427
+baseline ROUGE-L Eval 25.baseline R:0.21186 P:0.09058 F:0.12690
+baseline ROUGE-L Eval 26.baseline R:0.23563 P:0.15649 F:0.18807
+baseline ROUGE-L Eval 27.baseline R:0.17521 P:0.11919 F:0.14187
+baseline ROUGE-L Eval 28.baseline R:0.00000 P:0.00000 F:0.00000
+baseline ROUGE-L Eval 29.baseline R:0.15385 P:0.07759 F:0.10316
+baseline ROUGE-L Eval 30.baseline R:0.16250 P:0.15984 F:0.16116
+baseline ROUGE-L Eval 31.baseline R:0.00000 P:0.00000 F:0.00000
+baseline ROUGE-L Eval 32.baseline R:0.18421 P:0.04565 F:0.07317
+baseline ROUGE-L Eval 33.baseline R:0.36522 P:0.05097 F:0.08946
+baseline ROUGE-L Eval 34.baseline R:0.25424 P:0.05034 F:0.08404
+baseline ROUGE-L Eval 35.baseline R:0.14173 P:0.05294 F:0.07709
+baseline ROUGE-L Eval 36.baseline R:0.20513 P:0.05769 F:0.09005
+baseline ROUGE-L Eval 37.baseline R:0.13896 P:0.22368 F:0.17142
+baseline ROUGE-L Eval 38.baseline R:0.00000 P:0.00000 F:0.00000
+baseline ROUGE-L Eval 39.baseline R:0.00000 P:0.00000 F:0.00000
+baseline ROUGE-L Eval 40.baseline R:0.40400 P:0.16083 F:0.23007
