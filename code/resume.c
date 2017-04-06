@@ -125,6 +125,21 @@ void update_tf(Liste document, Liste dico[], int taille_dico) {
 Liste classifie_phrase_tfidf(Liste document, Liste dico[], int taille_dico) {
     Liste p = NULL;
     Liste triee=NULL;
+    update_tf(document, dico, taille_dico);
+
+    // calcul des scores de phrase
+    for (p = document; p!=NULL; p = p->next) {
+        PHRASE* phr = ((PHRASE*) p->val);
+        phr->score=0;
+        Liste mots = NULL;
+        for (mots = phr->mots; mots!=NULL; mots = mots->next) {
+            char* cle= (char*) mots->val;
+            ENTREE* e = get(cle, dico, taille_dico);
+            if (e) phr->score+= (e->tf)?1+log(e->tf):0;// a changer 
+        }
+        triee = ajout_trie(phr, triee, compare_score);
+//        affiche_resume(triee,TAILLE_RESUME);
+    }
     return triee;
 }
 
@@ -169,7 +184,36 @@ Liste classifie_phrase_tf(Liste document, Liste dico[], int taille_dico) {
 
 //TODO: ajouter le calcul de l'idf
 void calcule_idf(Liste documents[], int nb_doc, Liste dico[], int taille_dico) {
+	Liste p = NULL;
+	Liste d= NULL;
+	int apparition;
+	int idf;
+	for (int i=0; i<nb_doc; i++){ //pour tout les documents
+		apparition=0;
+		for (d= dico[i]; d!=NULL; d=d-> next ){ // pour tous les mots du dictionaire 
+			idf =0;
+			
+			for (p= documents[i]; p!=NULL; p=p->next){  // parcours du document 
+				Liste mots = NULL;
+				for (mots =((PHRASE*) p->val)->mots; mots!=NULL; mots = mots->next) {
+					char* cle= (char*) mots->val;
+					ENTREE* e = get(cle, dico, taille_dico);
+					if (compare_entree(e,d->val)){
+						apparition=1;
+					}
+				}
+			}
+			if (apparition){
+					idf ++;
+			}
+			
+			ENTREE* e = d->val;
+			e->idf= log (nb_doc/idf)/ log (10);
+        
+		}
+	}	
 }
+
 
 
 /**
@@ -248,25 +292,25 @@ int charge_documents(char* fichier, Liste documents[], char* textes[], int i, Li
     // lecture ligne par ligne pour les traitements et la représentation
     for (l=0,rewind(pf); fgets(ligne, TAILLE_LIGNE, pf)!=NULL; l++) {
 
-        //TODO: ajouter une condition pour accepter la phrase
-
-        PHRASE *p = calloc(1,sizeof(*p));
-        p->texte = strdup(ligne);
-        p->position = l;
-        char* mot = strtok (ligne,DELIM);
-        if (!mot) continue;
-        lowercase(mot);
-        int nb_mots=0;
-        do {
-            if (get(mot,stops,taille_stops)) 	continue;
-            char* cle = put(mot,dico,taille_dico);
-            nb_mots++;
-            p->nb_mots=nb_mots;
-            p->mots=ajout_tete(cle,p->mots);
-        } while(NULL != (mot=strtok(NULL,DELIM)));
-
-        documents[i] = ajout_tete(p,documents[i]);
-
+        //DONE: ajouter une condition pour accepter la phrase
+		if (strlen(ligne)>taille_min ){	
+			PHRASE *p = calloc(1,sizeof(*p));
+			p->texte = strdup(ligne);
+			p->position = l;
+			char* mot = strtok (ligne,DELIM);
+			if (!mot) continue;
+			lowercase(mot);
+			int nb_mots=0;
+			do {
+				if (get(mot,stops,taille_stops)) 	continue;
+				char* cle = put(mot,dico,taille_dico);
+				nb_mots++;
+				p->nb_mots=nb_mots;
+				p->mots=ajout_tete(cle,p->mots);
+			} while(NULL != (mot=strtok(NULL,DELIM)));
+			
+			documents[i] = ajout_tete(p,documents[i]);
+		}
     }
     fclose(pf);
     return 1;
